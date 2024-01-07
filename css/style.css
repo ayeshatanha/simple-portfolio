@@ -1,0 +1,264 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+:root{
+    color: blueviolet;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+header{
+
+
+    padding: 20px;
+
+
+    background-color: aliceblue;
+   
+    box-shadow: 3px 2px 63px -23px rgba(0, 0, 0, 1);
+}
+
+
+.header-wrapper{
+
+
+    width: 80%;
+
+
+    display: flex;
+
+
+    justify-content: space-between;
+
+
+    align-items: center;
+
+
+    margin: auto;
+}
+.logo{
+
+
+}
+
+
+.logo h2{
+
+
+    font-size: 32px;
+
+
+    font-family: revert;
+}
+
+
+nav ul{
+
+
+    text-decoration: none;
+
+
+    display: flex;
+
+
+    justify-content: space-between;
+
+
+}
+
+
+nav ul li{
+
+
+    text-decoration: none;
+
+
+    list-style: none;
+
+
+    display: flex;
+
+
+    justify-content: space-between;
+
+
+        align-items: center;
+}
+
+
+nav ul li a{
+
+
+    text-decoration: none;
+
+
+    margin-left: 50px;
+
+
+    color: black;
+
+
+    font-weight: 500;
+}
+
+
+nav ul li a:hover{
+    color: blueviolet;
+}
+
+
+button {
+    background-color: blueviolet;
+    border: none;
+    color: white;
+    padding: 20px 35px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+    font-weight: 700;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+
+button:hover{
+    background-color: white;
+    border: solid;
+    border-width: 2px;
+    border-color: blueviolet;
+    color: blueviolet;
+    padding: 17px 32px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+
+.hero{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    height: 95vh;
+    margin-top: 50px;  
+}
+
+
+.container{
+    padding: 0px 90px;
+}
+
+
+.left{
+    align-items: flex-end;
+}
+
+
+
+
+.right h2{
+    color: blueviolet;
+
+
+    font-size: 28px;
+
+
+    font-weight: 400;
+
+
+    font-family: sans-serif;
+
+
+    margin-bottom: 15px;
+
+
+}
+
+
+.right h1{
+    color: rgb(0, 0, 0);
+
+
+    font-size: 60px;
+   
+    font-weight: 700;
+   
+    font-family: sans-serif;
+
+
+    margin-bottom: 15px;
+}
+
+
+.right p{
+    color: rgb(43, 42, 42);
+
+
+    font-size: 18px;
+   
+    font-weight: 300;
+   
+    font-family: sans-serif;
+
+
+    margin-bottom: 25px;
+}
+
+
+.intro{
+    margin-top: 30px;
+    margin-left: 15px;
+}
+
+
+.right ul {
+    text-decoration: none;
+}
+
+
+.right ul li {
+    text-decoration: none;
+
+
+}
+
+
+.right ul li a {
+    text-decoration: none;
+
+
+    color: black;
+
+
+    font-weight: 500;
+}
+
+
+.right ul li a:hover {
+    color: blueviolet;
+    }
+
+    .bbane-coll-12{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .MenuBtn {
+        display: none;
+    }
+
+    .menu {
+        align-self: center;
+
+    }
+    
